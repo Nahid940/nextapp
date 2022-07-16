@@ -1,8 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Footer from './comps/Footer'
-import Navbar from './comps/NAvbar'
 
 export default function Home() {
   return (
