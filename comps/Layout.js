@@ -1,8 +1,7 @@
-import Footer from "./Footer";
+
 import Head from 'next/head';
 import { AppBar, Container, Toolbar, Typography } from "@material-ui/core";
 import useStyles from "../utils/styles";
-
 
 const Layout = ({children}) => {
 
@@ -33,3 +32,4 @@ const Layout = ({children}) => {
      );
 }
 export default Layout;
+
